@@ -22,8 +22,10 @@ def select_random_fact(fact_arr):
 
 print(len(fact_list))
 
-for fact2 in fact_list:
-    print(fact2)
+for i in range(0, len(fact_list)+1,1):
+    print(i)
+    print(fact_list[i])
+
 
 
 random_fact = select_random_fact(fact_list)
