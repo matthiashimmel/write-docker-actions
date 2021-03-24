@@ -22,6 +22,10 @@ def select_random_fact(fact_arr):
 
 print(len(fact_list))
 
+for fact2 in fact_list:
+    print(fact2)
+
+
 random_fact = select_random_fact(fact_list)
 
 # Print the individual randomly returned cat-fact
