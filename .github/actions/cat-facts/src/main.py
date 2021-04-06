@@ -20,11 +20,11 @@ for fact in r_obj_list:
 def select_random_fact(fact_arr):
     return fact_arr[random.randint(0, len(fact_list)-1)]
 
-print(len(fact_list))
+#print(len(fact_list))
 
-for i in range(0, len(fact_list),1):
-    print(i)
-    print(fact_list[i])
+#for i in range(0, len(fact_list),1):
+#   print(i)
+#   print(fact_list[i])
 
 
 
